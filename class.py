@@ -22,14 +22,14 @@ class Table:
         self.perimetre="0"
         self.couleur="default"
     def perimetre():
-        perimetre=input("entres le perimetre de la table: ")
+        self.perimetre=input("entres le perimetre de la table: ")
 
     def couleur():
-        couleur=input("donnes la couleure de la table: ")
+        self.couleur=input("donnes la couleure de la table: ")
     
     #Declarer une fonction qui affiche les propriétés de la table :)
     def afficherPropriete():
-        print("vous avez créer ube table"+couleur+"avec un perimetre de"+perimetre+"!!")
+        print("vous avez créer ube table"+self.couleur+"avec un perimetre de"+self.perimetre+"!!")
 
 
 table = Table()
