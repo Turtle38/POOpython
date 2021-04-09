@@ -17,13 +17,6 @@ class Lampe:
             print("éteind")
         else:
             print("allumée")
-<<<<<<< HEAD
-   
-lampe=Lampe()
-lampe.isOn()
-lampe.lampePropriete()
-=======
->>>>>>> cea37c95a9ae053553799f8539531c5cf4316b25
 
 while(True):
     lampe=Lampe()
