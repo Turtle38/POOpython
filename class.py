@@ -18,17 +18,17 @@ class Person:
 class Table:
 
     #######fontions######
-    def __init__():
+    def __init__(self):
         self.perimetre="0"
         self.couleur="default"
-    def perimetre():
+    def perimetre(self):
         self.perimetre=input("entres le perimetre de la table: ")
 
-    def couleur():
+    def couleur(self):
         self.couleur=input("donnes la couleure de la table: ")
     
     #Declarer une fonction qui affiche les propriétés de la table :)
-    def afficherPropriete():
+    def afficherPropriete(self):
         print("vous avez créer ube table"+self.couleur+"avec un perimetre de"+self.perimetre+"!!")
 
 
