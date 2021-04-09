@@ -12,3 +12,14 @@ class Person:
         print("au revoir twa ;)")
     
     #################################
+######ecrire un programme sui demande au gens gens la taille et la couleur de la table####
+class Table:
+    perimetre=""
+    couleur=""
+    #######fontions######
+    def perimetre():
+        perimetre=input("entres le perimetre de la table: ")
+    def couleur():
+        couleur=input("donnes la couleure de la table: ")
+
+input()
