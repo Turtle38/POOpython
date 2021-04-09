@@ -16,10 +16,11 @@ class Person:
 
 ######ecrire un programme qui demande au gens gens la taille et la couleur de la table####
 class Table:
-    perimetre = ""
-    couleur = ""
-    #######fontions######
 
+    #######fontions######
+    def __init__():
+        self.perimetre="0"
+        self.couleur="default"
     def perimetre():
         perimetre=input("entres le perimetre de la table: ")
 
@@ -28,7 +29,13 @@ class Table:
     
     #Declarer une fonction qui affiche les propriétés de la table :)
     def afficherPropriete():
-        print("vous avez créer une table "+couleur+"avec un perimetre de "+perimetre+"!!")
+        print("vous avez créer ube table"+couleur+"avec un perimetre de"+perimetre+"!!")
+
+
+table = Table()
+table.perimetre()
+table.couleur()
+table.afficherPropriete()
 
 
 input()
