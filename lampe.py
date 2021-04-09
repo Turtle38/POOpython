@@ -3,9 +3,13 @@ class Lampe:
         self.allumee=False
     
     def isOn(self):
-        if input("allumée ou eteind: ")=="allumée":
+        onOff=input("allumée ou eteind ? ")
+        if onOff =="allumée":
             self.allumee=True
+        elif onOff =="eteind":
+            self.allumee=False
         else:
+            print("erreure")
             self.allumee=False
     
     def lampePropriete(self):
@@ -13,7 +17,7 @@ class Lampe:
             print("éteind")
         else:
             print("allumée")
-    
+   
 lampe=Lampe()
 lampe.isOn()
 lampe.lampePropriete()
