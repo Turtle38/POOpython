@@ -21,20 +21,20 @@ class Table:
     def __init__(self):
         self.perimetre="0"
         self.couleur="default"
-    def perimetre(self):
+    def setPerimetre(self):
         self.perimetre=input("entres le perimetre de la table: ")
 
-    def couleur(self):
+    def setCouleur(self):
         self.couleur=input("donnes la couleure de la table: ")
     
     #Declarer une fonction qui affiche les propriétés de la table :)
     def afficherPropriete(self):
-        print("vous avez créer ube table"+self.couleur+"avec un perimetre de"+self.perimetre+"!!")
+        print("vous avez créer une table "+self.couleur+" avec un perimetre de "+self.perimetre+" !!")
 
 
 table = Table()
-table.perimetre()
-table.couleur()
+table.setPerimetre()
+table.setCouleur()
 table.afficherPropriete()
 
 
