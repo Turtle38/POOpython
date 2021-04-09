@@ -19,6 +19,7 @@ class Table:
     perimetre = ""
     couleur = ""
     #######fontions######
+
     def perimetre():
         perimetre=input("entres le perimetre de la table: ")
 
@@ -27,6 +28,7 @@ class Table:
     
     #Declarer une fonction qui affiche les propriétés de la table :)
     def afficherPropriete():
-        print("vous avez créer ube table"+couleur+"avec un perimetre de"+perimetre+"!!")
+        print("vous avez créer une table "+couleur+"avec un perimetre de "+perimetre+"!!")
+
 
 input()
