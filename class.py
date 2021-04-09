@@ -32,6 +32,7 @@ class Table:
         print("vous avez créer une table "+self.couleur+" avec un perimetre de "+self.perimetre+" !!")
 
 
+
 table = Table()
 table.setPerimetre()
 table.setCouleur()
