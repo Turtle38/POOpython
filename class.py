@@ -29,7 +29,7 @@ class Table:
     
     #Declarer une fonction qui affiche les propriétés de la table :)
     def afficherPropriete(self):
-        print("vous avez créer ube table"+self.couleur+"avec un perimetre de"+self.perimetre+"!!")
+        print("vous avez créer ube table "+self.couleur+" avec un perimetre de "+self.perimetre+" !!")
 
 
 table = Table()
