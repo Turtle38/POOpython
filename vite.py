@@ -4,3 +4,6 @@ def helloWorld():
 
 def byeWorld():
     print("byebyyyyye")
+
+def sayHi():
+    print("Hi !")
