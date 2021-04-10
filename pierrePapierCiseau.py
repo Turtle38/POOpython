@@ -47,6 +47,10 @@ jeu = Jeu()
 while(jeu.score != 3 and jeu.scoreADV != 3):
    
     jeu.comparer(joueur.jouer2(),adversaire.jouer() )
-    print("joueur = "+ str(jeu.score) + "adversaire = " + str(jeu.scoreADV))
+    print("joueur = "+ str(jeu.score) + " adversaire = " + str(jeu.scoreADV))
 
 
+if jeu.score == 3:
+    print("You win !!")
+else:
+    print("You loose !!")
