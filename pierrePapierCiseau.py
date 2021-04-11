@@ -14,25 +14,30 @@ class Joueur:
 class Jeu:
     score = 0
     scoreADV = 0
+    def incScore(self):
+        self.score= self.score + 1
+    def incScoreADV(self):
+        self.scoreADV =self.scoreADV + 1
+    
     def comparer(self,choix,choixADV):
         if choixADV == 1 and choix == 2:
             print("l'adversaire à choisi pierre , il a donc perdu")
-            self.score = self.score + 1
+            self.incScore()
         elif choix == 1 and choixADV == 2:
             print("l'adversaire à choisi papier, il a donc gagné")
-            self.scoreADV = self.scoreADV + 1
+            self.incScoreADV()
         elif choix == 2  and choixADV == 3:
             print("l'adversaire a choisi ciseau, il a donc gagné")
-            self.scoreADV = self.scoreADV + 1
+            self.incScoreADV()
         elif choix == 3 and choixADV == 2:
             print("l'adversaire a choisi papier,il a donc perdu")  
-            self.score =self.score + 1
+            self.incScore()
         elif choix == 1 and choixADV == 3:
             print("l'adversaire a choisi ciseau, il a donc perdu")
-            self.score = self.score + 1 
+            self.incScore() 
         elif choix == 3 and choixADV == 1:
             print("l'adversaire a choisi pierre, il a donc gagné")
-            self.scoreADV = self.scoreADV + 1
+            self.incScoreADV()
         elif choix == choixADV:
             print("égalité")
         else:
